@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de desenvolvimento FiveM e Discord — scripts, sistemas, bots e automações sob medida." />
+  <title>Barboza Dev — FiveM & Discord Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#inicio" class="brand"><span class="brand-dot"></span> BARBOZA<span>DEV</span></a>
+      <button class="menu-btn" aria-label="Abrir menu">☰</button>
+      <div class="nav-links">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato" class="nav-cta">Falar comigo</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero container">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> DISPONÍVEL PARA NOVOS PROJETOS</div>
+        <h1>Transformo ideias em<br><span>sistemas que funcionam.</span></h1>
+        <p class="hero-text">Desenvolvedor <strong>FiveM</strong> e <strong>Discord</strong> com 3 anos de experiência criando scripts, sistemas, bots e automações sob medida para comunidades de RP.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projetos">Ver meus projetos <span>↗</span></a>
+          <a class="btn secondary" href="#contato">Entrar em contato</a>
+        </div>
+        <div class="stats">
+          <div><strong>3+</strong><span>Anos desenvolvendo</span></div>
+          <div><strong>FiveM</strong><span>Scripts & sistemas</span></div>
+          <div><strong>Discord</strong><span>Bots & automações</span></div>
+        </div>
+      </div>
+      <div class="hero-terminal">
+        <div class="terminal-top"><div class="dots"><i></i><i></i><i></i></div><span>developer.lua</span><span class="live">● online</span></div>
+        <pre><code><span class="purple">local</span> developer = {
+  name = <span class="green">"Barboza"</span>,
+  experience = <span class="orange">3</span>,
+  stack = {
+    <span class="green">"FiveM"</span>,
+    <span class="green">"Lua"</span>,
+    <span class="green">"Discord"</span>,
+    <span class="green">"LB Phone"</span>
+  },
+  focus = <span class="green">"performance"</span>
+}
+
+<span class="purple">return</span> developer</code></pre>
+        <div class="terminal-footer"><span>●</span> build successful <b>100%</b></div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section container">
+      <div class="section-label">01 — SOBRE MIM</div>
+      <div class="about-grid">
+        <div>
+          <h2>Desenvolvimento sem<br><span>gambiarra.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>Trabalho há <strong>3 anos com desenvolvimento</strong>, principalmente no ecossistema FiveM e Discord. Gosto de pegar uma ideia, entender o que o projeto realmente precisa e transformar isso em uma solução funcional, organizada e fácil de manter.</p>
+          <p>Já atuei no desenvolvimento de cidades de RP, criando desde pequenas funções até sistemas completos e integrados. Também desenvolvo bots e automações para Discord, indo além do desenvolvimento dentro do servidor.</p>
+          <div class="chips"><span>FiveM</span><span>Lua</span><span>Discord</span><span>LB Phone</span><span>vRP</span><span>SQL</span><span>APIs</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section projects-section">
+      <div class="container">
+        <div class="section-label">02 — PROJETOS</div>
+        <div class="section-head"><h2>Alguns sistemas que<br><span>já desenvolvi.</span></h2><p>Projetos feitos para resolver problemas reais dentro de servidores e comunidades.</p></div>
+        <div class="project-grid">
+          <article class="project-card featured"><div class="project-number">01</div><div class="project-icon">⚙</div><h3>Sistema de Mecânica</h3><p>Sistema completo com diversas funções para mecânicas, incluindo gerenciamento e interações com veículos.</p><div class="tags"><span>FiveM</span><span>Lua</span><span>Vehicles</span></div></article>
+          <article class="project-card"><div class="project-number">02</div><div class="project-icon">◈</div><h3>Roda / Rampagem</h3><p>Sistema de impacto onde rodas podem sofrer danos ou se desprender do veículo ao realizar rampas.</p><div class="tags"><span>FiveM</span><span>Physics</span></div></article>
+          <article class="project-card"><div class="project-number">03</div><div class="project-icon">↯</div><h3>Guincho</h3><p>Integração de guincho com mecânica para operações de recuperação e transporte de veículos.</p><div class="tags"><span>FiveM</span><span>Mechanic</span></div></article>
+          <article class="project-card"><div class="project-number">04</div><div class="project-icon">▣</div><h3>Aplicativos LB Phone</h3><p>Aplicativos personalizados para o LB Phone, desenvolvidos de acordo com a necessidade do servidor.</p><div class="tags"><span>LB Phone</span><span>API</span></div></article>
+          <article class="project-card"><div class="project-number">05</div><div class="project-icon">≈</div><h3>Sistema de Lama</h3><p>Veículos sem características off-road perdem desempenho e podem atolar ao entrar em determinadas áreas de lama.</p><div class="tags"><span>FiveM</span><span>Vehicles</span></div></article>
+          <article class="project-card"><div class="project-number">06</div><div class="project-icon">⌘</div><h3>Bots para Discord</h3><p>Tickets, atendimento, organização, streamer, SSP e automações personalizadas desenvolvidas do zero.</p><div class="tags"><span>Discord</span><span>Bots</span><span>Automation</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="section container">
+      <div class="section-label">03 — SERVIÇOS</div>
+      <div class="services-grid">
+        <div class="service-intro"><h2>O que posso<br><span>desenvolver?</span></h2><p>Se você tem uma ideia, posso transformar em um sistema. O projeto pode começar do zero ou partir de uma base existente.</p></div>
+        <div class="service-list">
+          <div class="service"><b>01</b><div><h3>Scripts FiveM</h3><p>Sistemas simples ou complexos, integrações, mecânicas, veículos, empregos e funcionalidades exclusivas.</p></div><span>↗</span></div>
+          <div class="service"><b>02</b><div><h3>Bots Discord</h3><p>Tickets, atendimento, whitelist, organização, streamer, logs, cargos, automações e sistemas personalizados.</p></div><span>↗</span></div>
+          <div class="service"><b>03</b><div><h3>Integrações & APIs</h3><p>Conexão entre FiveM, Discord, banco de dados, aplicativos e serviços externos.</p></div><span>↗</span></div>
+          <div class="service"><b>04</b><div><h3>Projetos sob medida</h3><p>Você explica o problema ou a ideia. Eu estudo a solução e desenvolvo de acordo com o seu projeto.</p></div><span>↗</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quote-section">
+      <div class="container quote"><span class="quote-mark">“</span><blockquote>Desenvolvimento precisa ser parceria. Eu gosto de entender a visão da administração e transformar isso em algo que realmente funcione dentro do projeto.</blockquote><div class="quote-author">— BARBOZA, DEVELOPER</div></div>
+    </section>
+
+    <section id="contato" class="section contact-section container">
+      <div class="contact-box">
+        <div><div class="section-label">04 — CONTATO</div><h2>Tem um projeto<br><span>em mente?</span></h2><p>Me chama para conversar. Podemos analisar sua ideia, entender o que você precisa e encontrar a melhor forma de desenvolver.</p></div>
+        <div class="contact-actions">
+          <a class="contact-btn" href="https://discord.com" target="_blank" rel="noopener"><span>Discord</span><b>↗</b></a>
+          <a class="contact-btn" href="mailto:contato@seudominio.com"><span>E-mail</span><b>↗</b></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><span>© 2026 BARBOZA DEV</span><span>FiveM · Discord · Systems</span><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
